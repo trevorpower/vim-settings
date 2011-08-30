@@ -5,5 +5,7 @@ This is my current vim configuration.
 This repository contains a `vimrc` file and a `vim` directory that should be linked to from your users directory as `.vimrc` and `.vim`.
 	
  ln -nfs ~/VimSettings/vimrc .vimrc 
- ln -nfs ~/VimSettings/gvimrc .gvimrc
+ ln -nfs ~/VimSettings/vim .vim
+
+It uses the 'Inconsolata' font, found here: http://www.levien.com/type/myfonts/inconsolata.html
 
