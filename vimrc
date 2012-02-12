@@ -9,3 +9,11 @@ set gfn=Inconsolata\ 14
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
+set guioptions-=L  "remove left-hand scroll bar
+
+"Use control-r to instigate search and replace of selected text
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+
+set expandtab
+set shiftwidth=2
+set softtabstop=2
