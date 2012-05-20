@@ -16,6 +16,8 @@ set guioptions-=L  "remove left-hand scroll bar
 "Use control-r to instigate search and replace of selected text
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
+set completefunc=syntaxcomplete#Complete
+
 set expandtab
 set shiftwidth=2
 set softtabstop=2
