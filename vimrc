@@ -2,8 +2,11 @@ filetype indent on
 
 "Use solarized color scheme
 syntax enable
+set t_Co=256
 set background=dark
-colorscheme solarized
+"colorscheme solarized
+colorscheme tomorrow-night
+set t_Co=256
 
 set gfn=Inconsolata\ 14
 
@@ -17,6 +20,9 @@ set guioptions-=L  "remove left-hand scroll bar
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 set completefunc=syntaxcomplete#Complete
+
+"hide tildes after the buffer
+hi NonText guifg=#1d1f21
 
 set expandtab
 set shiftwidth=2
