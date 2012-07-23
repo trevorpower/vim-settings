@@ -8,7 +8,9 @@ set background=dark
 colorscheme tomorrow-night
 set t_Co=256
 
-set gfn=Inconsolata\ 14
+call pathogen#infect()
+
+set gfn=Inconsolata\ 12
 
 "Get some more screen realestate
 set guioptions-=m  "remove menu bar
