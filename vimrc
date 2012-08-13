@@ -10,6 +10,8 @@ set t_Co=256
 
 call pathogen#infect()
 
+set noswapfile
+
 set gfn=Inconsolata\ 12
 
 "Get some more screen realestate
