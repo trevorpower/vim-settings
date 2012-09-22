@@ -1,10 +1,8 @@
 filetype indent on
 
-"Use solarized color scheme
 syntax enable
 set t_Co=256
 set background=dark
-"colorscheme solarized
 colorscheme tomorrow-night
 set t_Co=256
 
@@ -12,8 +10,11 @@ call pathogen#infect()
 
 set noswapfile
 
+let mapleader = ","
+
 set gfn=Inconsolata\ 12
 
+set wildignore+=*/node_modules/*
 "Get some more screen realestate
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
