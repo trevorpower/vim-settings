@@ -1,17 +1,13 @@
 execute pathogen#infect()
-syntax on
-filetype indent on
 
 set t_Co=256
 set background=dark
 colorscheme tomorrow-night
 set t_Co=256
 
-
 set noswapfile
 
-
-set gfn=Inconsolata\ 12
+"set gfn=Inconsolata\ 12
 
 set wildignore+=*/node_modules/*
 "Get some more screen realestate
