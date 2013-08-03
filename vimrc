@@ -1,16 +1,15 @@
+execute pathogen#infect()
+syntax on
 filetype indent on
 
-syntax enable
 set t_Co=256
 set background=dark
 colorscheme tomorrow-night
 set t_Co=256
 
-call pathogen#infect()
 
 set noswapfile
 
-let mapleader = ","
 
 set gfn=Inconsolata\ 12
 
